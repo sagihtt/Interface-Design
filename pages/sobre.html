@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatality | Sobre Nós</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Rajdhani:wght@400;500;600;700&family=Space+Grotesk:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../vendor/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/png" href="../img/favicon.png">
+</head>
+
+<body class="page-body">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" alt="logo" class="img-fluid"
+                    width="160"></a>
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mx-auto mb-2 mb-md-0 custom-nav-spacing">
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="./produtos.html"><i
+                                class="fa-solid fa-cart-shopping me-2"></i>Produtos</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="./galeria.html"><i
+                                class="fa-solid fa-image me-2"></i>Galeria</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-comments me-2"></i>Contato
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./contato.html"><i
+                                        class="fa-solid fa-headset me-2"></i>Fale Conosco</a></li>
+                            <li><a class="dropdown-item" href="./sobre.html"><i class="fa-solid fa-users me-2"></i>Sobre
+                                    nós</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex search-minimalist" role="search">
+                    <svg class="search-minimalist-icon bi bi-search" xmlns="http://www.w3.org/2000/svg" width="16"
+                        height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                    </svg>
+                    <input class="form-control search-minimalist-input" type="search" placeholder="Busque aqui ..."
+                        aria-label="Search" />
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sobre Nós -->
+    <section id="community" class="community-section d-flex flex-column" class="page-section">
+        <h1 class="sr-only">Sobre a Equipe</h1>
+        <div class="text-center w-100">
+            <img src="../img/logo.png" alt="Fatality Community"
+                class="img-fluid mb-5 animate-on-scroll scale-in logo-hero">
+        </div>
+
+        <div class="container animate-on-scroll">
+
+            <p class="community-features-list text-center mb-5" class="about-description">
+                A Fatality foi fundada com um único propósito: fornecer a tecnologia mais avançada para jogadores que
+                buscam o desempenho perfeito no Counter-Strike 2. Nossa equipe de desenvolvedores trabalha
+                incansavelmente para criar soluções inovadoras que garantem precisão, segurança e estabilidade.
+                Acreditamos que a superioridade no jogo vem da combinação de habilidade com as melhores ferramentas
+                disponíveis no mercado.
+            </p>
+        </div>
+
+        <!-- Accordion -->
+        <h2 class="text-center mb-5 animate-on-scroll title-underline pricing-title fw-bold">NOSSA EQUIPE</h2>
+
+        <div class="accordion accordion-flush animate-on-scroll mb-5" id="accordionEquipe">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed d-flex align-items-center" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#flush-collapseCEO" aria-expanded="false"
+                        aria-controls="flush-collapseCEO">
+                        berkana <span class="team-role-tag">STAFF</span>
+                    </button>
+                </h2>
+                <div id="flush-collapseCEO" class="accordion-collapse collapse" data-bs-parent="#accordionEquipe">
+                    <div class="accordion-body py-3 d-flex flex-column flex-sm-row align-items-center gap-4">
+                        <div class="flex-shrink-0 team-profile-wrapper">
+                            <img src="../img/perfil0.jpg" alt="berkana" class="img-fluid team-profile-img"
+                                loading="lazy" decoding="async">
+                        </div>
+                        <p class="mb-0 text-white-50 text-left">Fundador e idealizador do projeto. Com
+                            anos de experiência em engenharia reversa
+                            e desenvolvimento de software para jogos competitivos. Responsável por arquitetar o core do
+                            nosso Ragebot e garantir que a Fatality se mantenha sempre à frente das atualizações de
+                            segurança.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed d-flex align-items-center" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#flush-collapseDev" aria-expanded="false"
+                        aria-controls="flush-collapseDev">
+                        philip015 <span class="team-role-tag">DEV</span>
+                    </button>
+                </h2>
+                <div id="flush-collapseDev" class="accordion-collapse collapse" data-bs-parent="#accordionEquipe">
+                    <div class="accordion-body py-3 d-flex flex-column flex-sm-row align-items-center gap-4">
+                        <div class="flex-shrink-0 team-profile-wrapper">
+                            <img src="../img/perfil1.jpg" alt="philip015" class="img-fluid team-profile-img"
+                                loading="lazy" decoding="async">
+                        </div>
+                        <p class="mb-0 text-white-50 text-left">Especialista em segurança cibernética e
+                            otimização de código C++. Focado em
+                            manter nossos sistemas indetectáveis e em aprimorar a performance das funcionalidades
+                            visuais para garantir o menor impacto possível de FPS durante suas partidas.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed d-flex align-items-center" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#flush-collapseSupport" aria-expanded="false"
+                        aria-controls="flush-collapseSupport">
+                        trotek <span class="team-role-tag">SUPPORT</span>
+                    </button>
+                </h2>
+                <div id="flush-collapseSupport" class="accordion-collapse collapse" data-bs-parent="#accordionEquipe">
+                    <div class="accordion-body py-3 d-flex flex-column flex-sm-row align-items-center gap-4">
+                        <div class="flex-shrink-0 team-profile-wrapper">
+                            <img src="../img/perfil2.jpg" alt="trotek" class="img-fluid team-profile-img" loading="lazy"
+                                decoding="async">
+                        </div>
+                        <p class="mb-0 text-white-50 text-left">Líder da nossa equipe de suporte e
+                            gerenciamento da comunidade. Garante que
+                            todos os membros tenham suas dúvidas resolvidas rapidamente, além de gerenciar tutoriais e
+                            configurações recomendadas no nosso fórum exclusivo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="fatality-footer py-2 mt-auto w-100">
+            <div class="container">
+                <ul class="nav justify-content-center border-bottom pb-2 mb-2 custom-footer-nav">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link px-2 footer-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./produtos.html" class="nav-link px-2 footer-link">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./galeria.html" class="nav-link px-2 footer-link">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./contato.html" class="nav-link px-2 footer-link">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./sobre.html" class="nav-link px-2 footer-link">Sobre nós</a>
+                    </li>
+                </ul>
+
+                <!-- Icons -->
+                <div class="d-flex justify-content-center gap-4 my-3 footer-socials">
+                    <a href="#" class="social-icon" title="Discord"><i class="fa-brands fa-discord"></i></a>
+                    <a href="#" class="social-icon" title="Twitter / X"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" class="social-icon" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+
+                <p class="text-center footer-copy">&copy; 2026 Fatality • All rights reserved.</p>
+            </div>
+        </footer>
+    </section>
+
+    <a href="#" id="topo" class="back-to-top" title="Voltar ao topo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-custom-arrow"
+            viewBox="0 0 16 16">
+            <polygon points="8,2 15,9 1,9" />
+            <rect x="5" y="9" width="6" height="4" />
+        </svg>
+    </a>
+    <script src="../vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

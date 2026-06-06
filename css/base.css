@@ -1,0 +1,41 @@
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-secondary);
+  padding-top: 5.2rem;
+  padding-left: var(--edge-margin);
+  padding-right: var(--edge-margin);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative !important;
+  min-height: 100vh !important;
+}
+
+html,
+body {
+  overflow-x: hidden !important;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-heading);
+  letter-spacing: -1px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
+.page-body {
+  min-height: 100vh;
+}

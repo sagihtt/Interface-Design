@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatality | Produtos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Rajdhani:wght@400;500;600;700&family=Space+Grotesk:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../vendor/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/png" href="../img/favicon.png">
+</head>
+
+<body class="page-body">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" alt="logo" class="img-fluid"
+                    width="160"></a>
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mx-auto mb-2 mb-md-0 custom-nav-spacing">
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="./produtos.html"><i
+                                class="fa-solid fa-cart-shopping me-2"></i>Produtos</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="./galeria.html"><i
+                                class="fa-solid fa-image me-2"></i>Galeria</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-comments me-2"></i>Contato
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./contato.html"><i
+                                        class="fa-solid fa-headset me-2"></i>Fale Conosco</a></li>
+                            <li><a class="dropdown-item" href="./sobre.html"><i class="fa-solid fa-users me-2"></i>Sobre
+                                    nós</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex search-minimalist" role="search">
+                    <svg class="search-minimalist-icon bi bi-search" xmlns="http://www.w3.org/2000/svg" width="16"
+                        height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                    </svg>
+                    <input class="form-control search-minimalist-input" type="search" placeholder="Busque aqui ..."
+                        aria-label="Search" />
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Produtos -->
+    <section id="pricing" class="community-section d-flex flex-column" class="page-section">
+        <div class="container">
+            <h1 class="sr-only">Produtos e Planos</h1>
+            <h2 class="text-center mb-5 text-light pricing-title fw-bold animate-on-scroll title-underline">PLANOS DE
+                ACESSO</h2>
+
+            <div class="row g-4 mb-5 justify-content-center animate-on-scroll">
+
+                <!-- Card 0 -->
+                <div class="col-md-4">
+                    <div class="card h-100 text-light border-0 pricing-card">
+                        <div class="card-header text-center pricing-card-header">
+                            <h3 class="card-title text-pink mb-3 pricing-title">1 DIA</h3>
+                            <h4 class="display-6 fw-bold mb-0 pricing-price">R$ 99,99</h4>
+                        </div>
+                        <div class="card-body pricing-card-body">
+                            <ul class="list-unstyled mb-0 community-features-list">
+                                <li class="mb-2"><i class="fa-solid fa-check text-pink me-2"></i>Acesso a conteúdos
+                                    exclusivos</li>
+                                <li class="mb-2"><i class="fa-solid fa-check text-pink me-2"></i>Suporte básico</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer text-center pricing-card-footer">
+                            <a href="#" class="btn btn-outline-light w-100 py-2 pricing-btn-outline">Assinar Agora</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 1 -->
+                <div class="col-md-4 pricing-highlight-z">
+                    <div class="card h-100 text-light border-0 pricing-card-highlight">
+                        <div class="card-header text-center position-relative pricing-card-header">
+                            <span
+                                class="badge position-absolute top-0 start-50 translate-middle pricing-badge">Recomendado</span>
+                            <h3 class="card-title text-pink mb-3 mt-2 pricing-title">90 DIAS</h3>
+                            <h4 class="display-6 fw-bold mb-0 pricing-price">R$ 249,99</h4>
+                        </div>
+                        <div class="card-body pricing-card-body">
+                            <ul class="list-unstyled mb-0 community-features-list">
+                                <li class="mb-2"><i class="fa-solid fa-check text-pink me-2"></i>Desconto progressivo
+                                </li>
+                                <li class="mb-2"><i class="fa-solid fa-check text-pink me-2"></i>Suporte prioritário
+                                </li>
+                                <li class="mb-2"><i class="fa-solid fa-check text-pink me-2"></i>Acesso à versão Beta
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer text-center pricing-card-footer">
+                            <a href="#" class="btn w-100 py-2 pricing-btn-highlight">Assinar Agora</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100 text-light border-0 pricing-card">
+                        <div class="card-header text-center pricing-card-header">
+                            <h3 class="card-title text-pink mb-3 pricing-title">LIFETIME</h3>
+                            <h4 class="display-6 fw-bold mb-0 pricing-price">R$ 899,99</h4>
+                        </div>
+                        <div class="card-body pricing-card-body">
+                            <ul class="list-unstyled mb-0 community-features-list">
+                                <li class="mb-2"><i class="fa-solid fa-check text-pink me-2"></i>Pagamento único</li>
+                                <li class="mb-2"><i class="fa-solid fa-check text-pink me-2"></i>Cargo VIP no Discord
+                                </li>
+                                <li class="mb-2"><i class="fa-solid fa-check text-pink me-2"></i>Acesso à versão Alpha
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer text-center pricing-card-footer">
+                            <a href="#" class="btn btn-outline-light w-100 py-2 pricing-btn-outline">Assinar Agora</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tabela -->
+            <div class="mt-5 pt-5 animate-on-scroll">
+                <h2 class="text-center mb-5 text-light pricing-title fw-bold animate-on-scroll title-underline">
+                    COMPARATIVO DE RECURSOS
+                </h2>
+                <div class="table-wrapper table-responsive mb-5">
+                    <table class="table align-middle premium-table mb-0">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="text-pink text-start ps-4">Recurso / Vantagem</th>
+                                <th scope="col" class="text-center">Versão Básica</th>
+                                <th scope="col" class="text-center text-pink">Versão Beta <span
+                                        class="badge position-relative top-0 ms-1" class="pro-badge-inline">PRO</span>
+                                </th>
+                                <th scope="col" class="text-center">Versão Alpha</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="Recurso" class="text-start ps-4 fw-bold">Ragebot & AA</td>
+                                <td data-label="Básica" class="text-center">Completo</td>
+                                <td data-label="Beta" class="text-center text-pink fw-bold">Avançado</td>
+                                <td data-label="Alpha" class="text-center">Custom (LUA)</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Recurso" class="text-start ps-4 fw-bold">Legitbot</td>
+                                <td data-label="Básica" class="text-center">Smooth & FOV</td>
+                                <td data-label="Beta" class="text-center text-pink fw-bold">Backtrack</td>
+                                <td data-label="Alpha" class="text-center">Humanizador IA</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Recurso" class="text-start ps-4 fw-bold">Visuals (ESP)</td>
+                                <td data-label="Básica" class="text-center">Box & Health</td>
+                                <td data-label="Beta" class="text-center text-pink fw-bold">Chams</td>
+                                <td data-label="Alpha" class="text-center">Advanced Visuals</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Recurso" class="text-start ps-4 fw-bold">Anticheat</td>
+                                <td data-label="Básica" class="text-center">VAC Live</td>
+                                <td data-label="Beta" class="text-center text-pink fw-bold">Secure mode</td>
+                                <td data-label="Alpha" class="text-center">Kernel Driver</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Recurso" class="text-start ps-4 fw-bold">Customização</td>
+                                <td data-label="Básica" class="text-center">Config Fixa</td>
+                                <td data-label="Beta" class="text-center text-pink fw-bold">Config Editor</td>
+                                <td data-label="Alpha" class="text-center">API Aberta</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Recurso" class="text-start ps-4 fw-bold">Suporte</td>
+                                <td data-label="Básica" class="text-center">Ticket</td>
+                                <td data-label="Beta" class="text-center text-pink fw-bold">Prioritário</td>
+                                <td data-label="Alpha" class="text-center">DEV</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+        <footer class="fatality-footer py-2 mt-auto w-100">
+            <div class="container">
+                <ul class="nav justify-content-center border-bottom pb-2 mb-2 custom-footer-nav">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link px-2 footer-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./produtos.html" class="nav-link px-2 footer-link">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./galeria.html" class="nav-link px-2 footer-link">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./contato.html" class="nav-link px-2 footer-link">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./sobre.html" class="nav-link px-2 footer-link">Sobre nós</a>
+                    </li>
+                </ul>
+
+                <!-- Icons -->
+                <div class="d-flex justify-content-center gap-4 my-3 footer-socials">
+                    <a href="#" class="social-icon" title="Discord"><i class="fa-brands fa-discord"></i></a>
+                    <a href="#" class="social-icon" title="Twitter / X"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" class="social-icon" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+
+                <p class="text-center footer-copy">&copy; 2026 Fatality • All rights reserved.</p>
+            </div>
+        </footer>
+    </section>
+
+    <a href="#" id="topo" class="back-to-top" title="Voltar ao topo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-custom-arrow"
+            viewBox="0 0 16 16">
+            <polygon points="8,2 15,9 1,9" />
+            <rect x="5" y="9" width="6" height="4" />
+        </svg>
+    </a>
+    <script src="../vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatality | Galeria</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Rajdhani:wght@400;500;600;700&family=Space+Grotesk:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../vendor/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/png" href="../img/favicon.png">
+</head>
+
+<body class="page-body">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" alt="logo" class="img-fluid"
+                    width="160"></a>
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mx-auto mb-2 mb-md-0 custom-nav-spacing">
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="./produtos.html"><i
+                                class="fa-solid fa-cart-shopping me-2"></i>Produtos</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="./galeria.html"><i
+                                class="fa-solid fa-image me-2"></i>Galeria</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-comments me-2"></i>Contato
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./contato.html"><i
+                                        class="fa-solid fa-headset me-2"></i>Fale Conosco</a></li>
+                            <li><a class="dropdown-item" href="./sobre.html"><i class="fa-solid fa-users me-2"></i>Sobre
+                                    nós</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex search-minimalist" role="search">
+                    <svg class="search-minimalist-icon bi bi-search" xmlns="http://www.w3.org/2000/svg" width="16"
+                        height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                    </svg>
+                    <input class="form-control search-minimalist-input" type="search" placeholder="Busque aqui ..."
+                        aria-label="Search" />
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Galeria -->
+    <section class="community-section d-flex flex-column page-section">
+        <div class="container flex-grow-1">
+            <h1 class="sr-only">Galeria e Depoimentos</h1>
+            <h2 class="text-center mb-4 text-light pricing-title fw-bold animate-on-scroll title-underline">GALERIA &
+                DEPOIMENTOS</h2>
+            <p class="text-center community-footer-text mb-5 animate-on-scroll section-desc">Veja o que
+                nossos membros estão falando sobre a Fatality.</p>
+
+            <!-- Imagens -->
+            <div class="row g-3 mb-5 animate-on-scroll">
+
+                <!-- Coluna 1 -->
+                <div class="col-md-6 d-flex flex-column gap-3">
+                    <div class="gallery-item flex-grow-1" data-bs-toggle="modal" data-bs-target="#galleryModal"
+                        data-img="../img/galeria0.png">
+                        <img src="../img/galeria0.png" alt="Galeria 1" class="img-fluid w-100 h-100 gallery-img"
+                            loading="lazy" decoding="async">
+                        <div class="gallery-overlay">
+                            <i class="fa-solid fa-expand gallery-expand-icon"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item flex-grow-1" data-bs-toggle="modal" data-bs-target="#galleryModal"
+                        data-img="../img/galeria3.png">
+                        <img src="../img/galeria3.png" alt="Galeria 2" class="img-fluid w-100 h-100 gallery-img"
+                            loading="lazy" decoding="async">
+                        <div class="gallery-overlay">
+                            <i class="fa-solid fa-expand gallery-expand-icon"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item flex-grow-1" data-bs-toggle="modal" data-bs-target="#galleryModal"
+                        data-img="../img/galeria5.png">
+                        <img src="../img/galeria5.png" alt="Galeria 3" class="img-fluid w-100 h-100 gallery-img"
+                            loading="lazy" decoding="async">
+                        <div class="gallery-overlay">
+                            <i class="fa-solid fa-expand gallery-expand-icon"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Coluna 2 -->
+                <div class="col-md-6 d-flex flex-column gap-3">
+                    <div class="gallery-item flex-grow-1" data-bs-toggle="modal" data-bs-target="#galleryModal"
+                        data-img="../img/galeria1.png">
+                        <img src="../img/galeria1.png" alt="Galeria 4" class="img-fluid w-100 h-100 gallery-img"
+                            loading="lazy" decoding="async">
+                        <div class="gallery-overlay">
+                            <i class="fa-solid fa-expand gallery-expand-icon"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item flex-grow-1" data-bs-toggle="modal" data-bs-target="#galleryModal"
+                        data-img="../img/galeria2.png">
+                        <img src="../img/galeria2.png" alt="Galeria 5" class="img-fluid w-100 h-100 gallery-img"
+                            loading="lazy" decoding="async">
+                        <div class="gallery-overlay">
+                            <i class="fa-solid fa-expand gallery-expand-icon"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item flex-grow-1" data-bs-toggle="modal" data-bs-target="#galleryModal"
+                        data-img="../img/galeria4.png">
+                        <img src="../img/galeria4.png" alt="Galeria 6" class="img-fluid w-100 h-100 gallery-img"
+                            loading="lazy" decoding="async">
+                        <div class="gallery-overlay">
+                            <i class="fa-solid fa-expand gallery-expand-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Depoimentos -->
+            <div class="text-center mb-5 reveal reveal-up">
+                <h3 class="text-light pricing-title fw-bold mb-4 animate-on-scroll title-underline">DEPOIMENTOS</h3>
+                <p class="community-footer-text contact-desc">O que nossos membros dizem sobre a
+                    experiência Fatality.</p>
+            </div>
+
+            <div class="row justify-content-center mb-5 reveal reveal-up">
+                <div class="col-lg-10">
+                    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+
+                        <!-- Indicadores -->
+                        <div class="carousel-indicators testimonial-indicators">
+                            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+
+                        <!-- Slides -->
+                        <div class="carousel-inner pb-4 animate-on-scroll">
+                            <!-- Depoimento 0 -->
+                            <div class="carousel-item active">
+                                <div class="card text-light border-0 pricing-card mx-auto testimonial-card">
+                                    <div class="card-body p-4 p-md-5 text-center">
+                                        <div class="mb-4">
+                                            <i class="fa-solid fa-quote-left text-pink testimonial-quote-icon"></i>
+                                        </div>
+                                        <p class="community-footer-text fs-4 fst-italic mb-4 testimonial-text">
+                                            "A comunidade e o suporte são inigualáveis. O bypass nunca me deixou na mão,
+                                            é exatamente o poder de fogo que eu precisava para subir de ranking sem
+                                            estresse."
+                                        </p>
+                                        <div class="d-flex align-items-center justify-content-center gap-3">
+                                            <div class="testimonial-avatar">
+                                                <img src="../img/depoimentos/cliente1.jpg" alt="Cliente 1"
+                                                    class="img-fluid w-100 h-100 testimonial-avatar-img" loading="lazy"
+                                                    decoding="async"
+                                                    onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'%23ea2c75\'><path d=\'M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\'/></svg>'">
+                                            </div>
+                                            <div class="text-start">
+                                                <h5 class="text-white mb-0 fw-bold testimonial-username">@GhostSniper
+                                                </h5>
+                                                <small class="text-pink">Membro VIP</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Depoimento 1 -->
+                            <div class="carousel-item">
+                                <div class="card text-light border-0 pricing-card mx-auto testimonial-card">
+                                    <div class="card-body p-4 p-md-5 text-center">
+                                        <div class="mb-4">
+                                            <i class="fa-solid fa-quote-left text-pink testimonial-quote-icon"></i>
+                                        </div>
+                                        <p class="community-footer-text fs-4 fst-italic mb-4 testimonial-text">
+                                            "A melhor decisão que tomei. O fórum é super ativo e as atualizações saem
+                                            incrivelmente rápido. Recomendo para qualquer um que busca estabilidade."
+                                        </p>
+                                        <div class="d-flex align-items-center justify-content-center gap-3">
+                                            <div class="testimonial-avatar">
+                                                <img src="../img/depoimentos/cliente2.jpg" alt="Cliente 2"
+                                                    class="img-fluid w-100 h-100 testimonial-avatar-img" loading="lazy"
+                                                    decoding="async"
+                                                    onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'%23ea2c75\'><path d=\'M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\'/></svg>'">
+                                            </div>
+                                            <div class="text-start">
+                                                <h5 class="text-white mb-0 fw-bold testimonial-username">@NightOwl</h5>
+                                                <small class="text-pink">Membro Veterano</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Depoimento 2 -->
+                            <div class="carousel-item">
+                                <div class="card text-light border-0 pricing-card mx-auto testimonial-card">
+                                    <div class="card-body p-4 p-md-5 text-center">
+                                        <div class="mb-4">
+                                            <i class="fa-solid fa-quote-left text-pink testimonial-quote-icon"></i>
+                                        </div>
+                                        <p class="community-footer-text fs-4 fst-italic mb-4 testimonial-text">
+                                            "Interface limpa e suporte que realmente se importa com você. É nítido o
+                                            cuidado dos desenvolvedores com cada detalhe do software."
+                                        </p>
+                                        <div class="d-flex align-items-center justify-content-center gap-3">
+                                            <div class="testimonial-avatar">
+                                                <img src="../img/depoimentos/cliente3.jpg" alt="Cliente 3"
+                                                    class="img-fluid w-100 h-100 testimonial-avatar-img" loading="lazy"
+                                                    decoding="async"
+                                                    onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'%23ea2c75\'><path d=\'M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\'/></svg>'">
+                                            </div>
+                                            <div class="text-start">
+                                                <h5 class="text-white mb-0 fw-bold testimonial-username">@Vortex</h5>
+                                                <small class="text-pink">Membro Novo</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Controles -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                            data-bs-slide="prev" class="carousel-arrow-btn">
+                            <span class="carousel-control-prev-icon carousel-arrow-pink" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                            data-bs-slide="next" class="carousel-arrow-btn">
+                            <span class="carousel-control-next-icon carousel-arrow-pink" aria-hidden="true"></span>
+                            <span class="visually-hidden">Próximo</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="fatality-footer py-2 mt-auto w-100">
+            <div class="container">
+                <ul class="nav justify-content-center border-bottom pb-2 mb-2 custom-footer-nav">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link px-2 footer-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./produtos.html" class="nav-link px-2 footer-link">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./galeria.html" class="nav-link px-2 footer-link">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./contato.html" class="nav-link px-2 footer-link">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./sobre.html" class="nav-link px-2 footer-link">Sobre nós</a>
+                    </li>
+                </ul>
+
+                <!-- Icons -->
+                <div class="d-flex justify-content-center gap-4 my-3 footer-socials">
+                    <a href="#" class="social-icon" title="Discord"><i class="fa-brands fa-discord"></i></a>
+                    <a href="#" class="social-icon" title="Twitter / X"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" class="social-icon" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+
+                <p class="text-center footer-copy">&copy; 2026 Fatality • All rights reserved.</p>
+            </div>
+        </footer>
+    </section>
+
+    <a href="#" id="topo" class="back-to-top" title="Voltar ao topo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-custom-arrow"
+            viewBox="0 0 16 16">
+            <polygon points="8,2 15,9 1,9" />
+            <rect x="5" y="9" width="6" height="4" />
+        </svg>
+    </a>
+    <!-- Modal -->
+    <div class="modal fade" id="galleryModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered gallery-modal-dialog">
+            <div class="modal-content bg-transparent border-0">
+                <div class="modal-body p-0 text-center">
+                    <img id="galleryModalImg" src="" alt="Imagem ampliada"
+                        class="img-fluid mx-auto d-block gallery-modal-img" loading="lazy" decoding="async">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script>
+        document.querySelectorAll('.gallery-item').forEach(item => {
+            item.addEventListener('click', function () {
+                const imgSrc = this.getAttribute('data-img');
+                document.getElementById('galleryModalImg').src = imgSrc;
+            });
+        });
+    </script>
+</body>
+
+</html>

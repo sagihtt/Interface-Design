@@ -1,0 +1,14 @@
+/* 1. Variáveis Globais, Temas e Fontes Externas */
+@import url("variables.css");
+
+/* 2. Base e Tipografia (html, body, headings) */
+@import url("base.css");
+
+/* 3. Layout Estrutural (Containers, Navbar, Footer, Grids) */
+@import url("layout.css");
+
+/* 4. Componentes Específicos (Cards, Forms, Carousel, Search, etc) */
+@import url("components.css");
+
+/* 5. Utilitários (Animações, Helpers, Acessibilidade) */
+@import url("utilities.css");
