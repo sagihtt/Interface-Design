@@ -31,7 +31,7 @@ A disciplina demandou a concepção e implementação de uma interface visualmen
 ## Registros Visuais da Aplicação
 
 ### Página Principal e Apresentação do Produto
-![Página Inicial](docs/screenshots/01-home-fatality.png?v=2)
+![Página Inicial](docs/screenshots/01-home-fatality.png?v=3)
 
 ### Catálogo de Planos e Precificação
 ![Tabela de Produtos](docs/screenshots/02-produtos.png?v=2)
@@ -43,7 +43,7 @@ A disciplina demandou a concepção e implementação de uma interface visualmen
 ![Formulário de Contato](docs/screenshots/04-contato.png?v=2)
 
 ### Apresentação da Equipe e Estrutura Institucional
-![Sobre Nós e Equipe](docs/screenshots/05-sobre.png?v=2)
+![Sobre Nós e Equipe](docs/screenshots/05-sobre.png?v=3)
 
 ## Organização do Repositório
 
