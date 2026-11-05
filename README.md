@@ -4,21 +4,6 @@ Projeto prático desenvolvido como entrega final da disciplina de **Projeto de I
 
 A aplicação consiste em uma interface web completa e responsiva orientada a uma plataforma fictícia de software e tecnologia para jogos competitivos (Counter-Strike 2). O projeto encontra-se implantado e acessível na infraestrutura laboratorial do domínio [lab-1.engine.lat](https://lab-1.engine.lat/).
 
-```text
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                      MAPA ESTRUTURAL DE PÁGINAS • FATALITY                  │
-└──────────────────────────────────────┬──────────────────────────────────────┘
-                                       │
-                                [ index.html ]
-                        (Landing Page • Hero Carousel)
-                                       │
-         +-------------------+---------+---------+-------------------+
-         │                   │                   │                   │
-         ▼                   ▼                   ▼                   ▼
- [ pages/produtos ]  [ pages/galeria ]   [ pages/contato ]   [ pages/sobre ]
- (Planos & Preços)   (Mídia Adaptativa)  (Atendimento B2C)   (Apresentação)
-```
-
 ## Contexto e Objetivos Pedagógicos
 
 A disciplina demandou a concepção e implementação de uma interface visualmente coerente, centrada no usuário e aderente a padrões modernos de design e usabilidade. O escopo contemplou:
