@@ -43,7 +43,7 @@ A disciplina demandou a concepção e implementação de uma interface visualmen
 ![Formulário de Contato](docs/screenshots/04-contato.png?v=2)
 
 ### Apresentação da Equipe e Estrutura Institucional
-![Sobre Nós e Equipe](docs/screenshots/05-sobre.png?v=3)
+![Sobre Nós e Equipe](docs/screenshots/05-sobre.png?v=4)
 
 ## Organização do Repositório
 
